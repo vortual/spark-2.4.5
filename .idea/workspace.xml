@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="bed830a6-68af-4919-b916-3ce74895605f" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="C:\Users\Administrator\.m2\repository" />
+        <option name="userSettingsFile" value="D:\applications\installed\apache-maven-3.3.9\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="1" />
+  </component>
+  <component name="ProjectId" id="21b8CMH3uGgx7ZjHnquJc48I9Bk" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+  </component>
+  <component name="RebelAgentSelection">
+    <selection>jr</selection>
+  </component>
+  <component name="SbtLocalSettings">
+    <option name="projectSyncType">
+      <map>
+        <entry key="$PROJECT_DIR$/../../mongo-spark-master" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../../sql-spark-connector" value="PREVIEW" />
+      </map>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="bed830a6-68af-4919-b916-3ce74895605f" name="Default Changelist" comment="" />
+      <created>1638198297456</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1638198297456</updated>
+      <workItem from="1638198301797" duration="3692000" />
+      <workItem from="1645689437988" duration="4000" />
+      <workItem from="1654086135356" duration="1888000" />
+      <workItem from="1666662431948" duration="24075000" />
+      <workItem from="1666752254840" duration="25838000" />
+      <workItem from="1666841680410" duration="4773000" />
+      <workItem from="1667187898855" duration="445000" />
+      <workItem from="1668038308967" duration="3074000" />
+      <workItem from="1668407627575" duration="2406000" />
+      <workItem from="1668497846533" duration="567000" />
+      <workItem from="1668739885289" duration="4612000" />
+      <workItem from="1668765216956" duration="1000" />
+      <workItem from="1668822717040" duration="5779000" />
+      <workItem from="1669215503852" duration="730000" />
+      <workItem from="1669301348567" duration="38014000" />
+      <workItem from="1670072469095" duration="35680000" />
+      <workItem from="1670638240575" duration="8282000" />
+      <workItem from="1670658883252" duration="2628000" />
+      <workItem from="1675388714640" duration="1402000" />
+      <workItem from="1675685037126" duration="114000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="761" y="266" key="FileChooserDialogImpl" timestamp="1668491171195">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="761" y="266" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1668491171195" />
+    <state x="681" y="250" width="582" height="524" key="StructurePopup" timestamp="1670655500855">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="681" y="250" width="582" height="524" key="StructurePopup/0.0.1920.1040@0.0.1920.1040" timestamp="1670655500855" />
+    <state x="635" y="201" width="989" height="538" key="find.popup" timestamp="1675685050076">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="635" y="201" width="989" height="538" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1675685050076" />
+    <state x="616" y="235" key="run.anything.popup" timestamp="1670077684943">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="616" y="235" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1670077684943" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1675685056795">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1675685056795" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/core/src/main/java/org/apache/spark/memory/TaskMemoryManager.java</url>
+          <line>301</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/core/src/main/java/org/apache/spark/memory/TaskMemoryManager.java</url>
+          <line>284</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/core/src/main/java/org/apache/spark/memory/TaskMemoryManager.java</url>
+          <line>146</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/core/src/main/java/org/apache/spark/memory/TaskMemoryManager.java</url>
+          <line>150</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="scala-line">
+          <url>file://$PROJECT_DIR$/resource-managers/yarn/src/main/scala/org/apache/spark/deploy/yarn/ApplicationMaster.scala</url>
+          <line>459</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
