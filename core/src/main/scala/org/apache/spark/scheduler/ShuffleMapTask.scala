@@ -95,7 +95,9 @@ private[spark] class ShuffleMapTask(
     var writer: ShuffleWriter[Any, Any] = null
     try {
       val manager = SparkEnv.get.shuffleManager
+      // vortual: 获取 shuffle writer
       writer = manager.getWriter[Any, Any](dep.shuffleHandle, partitionId, context)
+      // vortual: 写 shuffle 数据，跳转到： org.apache.spark.shuffle.sort.SortShuffleWriter.write
       writer.write(rdd.iterator(partition, context).asInstanceOf[Iterator[_ <: Product2[Any, Any]]])
       writer.stop(success = true).get
     } catch {

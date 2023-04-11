@@ -1,7 +1,42 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="bed830a6-68af-4919-b916-3ce74895605f" name="Default Changelist" comment="" />
+    <list default="true" id="bed830a6-68af-4919-b916-3ce74895605f" name="Default Changelist" comment="shuffle">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assembly/spark-assembly_2.11.iml" beforeDir="false" afterPath="$PROJECT_DIR$/assembly/spark-assembly_2.11.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/kvstore/spark-kvstore_2.11.iml" beforeDir="false" afterPath="$PROJECT_DIR$/common/kvstore/spark-kvstore_2.11.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/network-common/spark-network-common_2.11.iml" beforeDir="false" afterPath="$PROJECT_DIR$/common/network-common/spark-network-common_2.11.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/network-shuffle/spark-network-shuffle_2.11.iml" beforeDir="false" afterPath="$PROJECT_DIR$/common/network-shuffle/spark-network-shuffle_2.11.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/sketch/spark-sketch_2.11.iml" beforeDir="false" afterPath="$PROJECT_DIR$/common/sketch/spark-sketch_2.11.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/tags/spark-tags_2.11.iml" beforeDir="false" afterPath="$PROJECT_DIR$/common/tags/spark-tags_2.11.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/unsafe/spark-unsafe_2.11.iml" beforeDir="false" afterPath="$PROJECT_DIR$/common/unsafe/spark-unsafe_2.11.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/spark-core_2.11.iml" beforeDir="false" afterPath="$PROJECT_DIR$/core/spark-core_2.11.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/scala/org/apache/spark/scheduler/ShuffleMapTask.scala" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/scala/org/apache/spark/scheduler/ShuffleMapTask.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/scala/org/apache/spark/shuffle/BlockStoreShuffleReader.scala" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/scala/org/apache/spark/shuffle/BlockStoreShuffleReader.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/scala/org/apache/spark/shuffle/sort/SortShuffleManager.scala" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/scala/org/apache/spark/shuffle/sort/SortShuffleManager.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/scala/org/apache/spark/shuffle/sort/SortShuffleWriter.scala" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/scala/org/apache/spark/shuffle/sort/SortShuffleWriter.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/scala/org/apache/spark/util/collection/ExternalSorter.scala" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/scala/org/apache/spark/util/collection/ExternalSorter.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/spark-examples_2.11.iml" beforeDir="false" afterPath="$PROJECT_DIR$/examples/spark-examples_2.11.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/external/avro/spark-avro_2.11.iml" beforeDir="false" afterPath="$PROJECT_DIR$/external/avro/spark-avro_2.11.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/external/kafka-0-10-assembly/spark-streaming-kafka-0-10-assembly_2.11.iml" beforeDir="false" afterPath="$PROJECT_DIR$/external/kafka-0-10-assembly/spark-streaming-kafka-0-10-assembly_2.11.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/external/kafka-0-10-sql/spark-sql-kafka-0-10_2.11.iml" beforeDir="false" afterPath="$PROJECT_DIR$/external/kafka-0-10-sql/spark-sql-kafka-0-10_2.11.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/external/kafka-0-10/spark-streaming-kafka-0-10_2.11.iml" beforeDir="false" afterPath="$PROJECT_DIR$/external/kafka-0-10/spark-streaming-kafka-0-10_2.11.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/graphx/spark-graphx_2.11.iml" beforeDir="false" afterPath="$PROJECT_DIR$/graphx/spark-graphx_2.11.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/launcher/spark-launcher_2.11.iml" beforeDir="false" afterPath="$PROJECT_DIR$/launcher/spark-launcher_2.11.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mllib-local/spark-mllib-local_2.11.iml" beforeDir="false" afterPath="$PROJECT_DIR$/mllib-local/spark-mllib-local_2.11.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mllib/spark-mllib_2.11.iml" beforeDir="false" afterPath="$PROJECT_DIR$/mllib/spark-mllib_2.11.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/repl/spark-repl_2.11.iml" beforeDir="false" afterPath="$PROJECT_DIR$/repl/spark-repl_2.11.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource-managers/yarn/spark-yarn_2.11.iml" beforeDir="false" afterPath="$PROJECT_DIR$/resource-managers/yarn/spark-yarn_2.11.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spark-parent_2.11.iml" beforeDir="false" afterPath="$PROJECT_DIR$/spark-parent_2.11.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sql/catalyst/spark-catalyst_2.11.iml" beforeDir="false" afterPath="$PROJECT_DIR$/sql/catalyst/spark-catalyst_2.11.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sql/core/spark-sql_2.11.iml" beforeDir="false" afterPath="$PROJECT_DIR$/sql/core/spark-sql_2.11.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sql/hive-thriftserver/spark-hive-thriftserver_2.11.iml" beforeDir="false" afterPath="$PROJECT_DIR$/sql/hive-thriftserver/spark-hive-thriftserver_2.11.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/streaming/spark-streaming_2.11.iml" beforeDir="false" afterPath="$PROJECT_DIR$/streaming/spark-streaming_2.11.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tools/spark-tools_2.11.iml" beforeDir="false" afterPath="$PROJECT_DIR$/tools/spark-tools_2.11.iml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -9,6 +44,9 @@
   </component>
   <component name="CodeStyleSettingsInfer">
     <option name="done" value="true" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
@@ -22,6 +60,7 @@
     <option name="version" value="1" />
   </component>
   <component name="ProjectId" id="21b8CMH3uGgx7ZjHnquJc48I9Bk" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -29,16 +68,22 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../livy-master" />
+    <property name="project.structure.last.edited" value="Global Libraries" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+    <property name="settings.editor.selected.configurable" value="Errors" />
   </component>
   <component name="RebelAgentSelection">
     <selection>jr</selection>
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\vortual\java_project\bigdata-source-code\spark-2.4.5" />
+    </key>
   </component>
   <component name="SbtLocalSettings">
     <option name="projectSyncType">
@@ -78,33 +123,61 @@
       <workItem from="1670658883252" duration="2628000" />
       <workItem from="1675388714640" duration="1402000" />
       <workItem from="1675685037126" duration="114000" />
+      <workItem from="1677033779865" duration="1228000" />
+      <workItem from="1677035019714" duration="1095000" />
+      <workItem from="1679141928916" duration="251000" />
+      <workItem from="1680948447663" duration="1056000" />
+      <workItem from="1681051195574" duration="6068000" />
+      <workItem from="1681128270758" duration="9227000" />
+      <workItem from="1681218605119" duration="641000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="WindowStateProjectService">
-    <state x="761" y="266" key="FileChooserDialogImpl" timestamp="1668491171195">
+    <state x="339" y="112" key="CommitChangelistDialog2" timestamp="1681135312898">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="761" y="266" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1668491171195" />
-    <state x="681" y="250" width="582" height="524" key="StructurePopup" timestamp="1670655500855">
+    <state x="339" y="112" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1681135312898" />
+    <state x="740" y="274" key="FileChooserDialogImpl" timestamp="1681215449396">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="681" y="250" width="582" height="524" key="StructurePopup/0.0.1920.1040@0.0.1920.1040" timestamp="1670655500855" />
-    <state x="635" y="201" width="989" height="538" key="find.popup" timestamp="1675685050076">
+    <state x="740" y="274" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1681215449396" />
+    <state x="440" y="93" key="SettingsEditor" timestamp="1677035049772">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="635" y="201" width="989" height="538" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1675685050076" />
-    <state x="616" y="235" key="run.anything.popup" timestamp="1670077684943">
+    <state x="440" y="93" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1677035049772" />
+    <state x="681" y="250" width="582" height="524" key="StructurePopup" timestamp="1679142177667">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="616" y="235" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1670077684943" />
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1675685056795">
+    <state x="681" y="250" width="582" height="524" key="StructurePopup/0.0.1920.1040@0.0.1920.1040" timestamp="1679142177667" />
+    <state x="635" y="201" width="989" height="538" key="find.popup" timestamp="1681135224495">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1675685056795" />
+    <state x="635" y="201" width="989" height="538" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1681135224495" />
+    <state x="668" y="310" key="git4idea.merge.GitPullDialog" timestamp="1679141954585">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="668" y="310" key="git4idea.merge.GitPullDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1679141954585" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1681133039496">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1681133039496" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

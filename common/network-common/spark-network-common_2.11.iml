@@ -39,5 +39,6 @@
     <orderEntry type="library" scope="TEST" name="Maven: junit:junit:4.12" level="project" />
     <orderEntry type="library" scope="TEST" name="Maven: com.novocode:junit-interface:0.11" level="project" />
     <orderEntry type="library" scope="TEST" name="Maven: org.scala-sbt:test-interface:1.0" level="project" />
+    <orderEntry type="library" name="scala-sdk-2.11.12" level="application" />
   </component>
 </module>

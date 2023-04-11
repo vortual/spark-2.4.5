@@ -651,10 +651,12 @@ private[spark] class ExternalSorter[K, V, C](
       // Special case: if we have only in-memory data, we don't need to merge streams, and perhaps
       // we don't even need to sort by anything other than partition ID
       if (!ordering.isDefined) {
+        // vortual: 只需要根据 partition ID 排序
         // The user hasn't requested sorted keys, so only sort by partition ID, not key
         groupByPartition(destructiveIterator(collection.partitionedDestructiveSortedIterator(None)))
       } else {
         // We do need to sort by both partition ID and key
+        // vortual: 需要根据 partition ID + key 一起排序
         groupByPartition(destructiveIterator(
           collection.partitionedDestructiveSortedIterator(Some(keyComparator))))
       }

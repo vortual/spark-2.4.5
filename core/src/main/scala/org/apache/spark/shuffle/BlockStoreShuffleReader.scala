@@ -94,6 +94,7 @@ private[spark] class BlockStoreShuffleReader[K, C](
     }
 
     // Sort the output if there is a sort ordering defined.
+    // vortual: 如果有排序
     val resultIter = dep.keyOrdering match {
       case Some(keyOrd: Ordering[K]) =>
         // Create an ExternalSorter to sort the data.
@@ -107,6 +108,7 @@ private[spark] class BlockStoreShuffleReader[K, C](
         context.addTaskCompletionListener[Unit](_ => {
           sorter.stop()
         })
+        // vortual: 返回读取迭代器
         CompletionIterator[Product2[K, C], Iterator[Product2[K, C]]](sorter.iterator, sorter.stop())
       case None =>
         aggregatedIter
