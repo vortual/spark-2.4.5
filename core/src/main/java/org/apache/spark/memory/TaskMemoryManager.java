@@ -282,6 +282,7 @@ public class TaskMemoryManager {
       throw new TooLargePageException(size);
     }
 
+    // vortual: 先判断逻辑上内存是否够用
     long acquired = acquireExecutionMemory(size, consumer);
     if (acquired <= 0) {
       return null;
@@ -299,6 +300,7 @@ public class TaskMemoryManager {
     }
     MemoryBlock page = null;
     try {
+      // vortual: 实际申请物理内存的地方
       page = memoryManager.tungstenMemoryAllocator().allocate(acquired);
     } catch (OutOfMemoryError e) {
       logger.warn("Failed to allocate a page ({} bytes), try again.", acquired);

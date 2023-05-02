@@ -49,6 +49,7 @@ public class HeapMemoryAllocator implements MemoryAllocator {
     int numWords = (int) ((size + 7) / 8);
     long alignedSize = numWords * 8L;
     assert (alignedSize >= size);
+    // vortual: 判断是否要重复利用内存从内存池获取. 当 MemoryBlock 大于 1M 则需要池化
     if (shouldPool(alignedSize)) {
       synchronized (this) {
         final LinkedList<WeakReference<long[]>> pool = bufferPoolsBySize.get(alignedSize);

@@ -414,12 +414,14 @@ private[spark] class MapOutputTrackerMaster(
   }
 
   def registerShuffle(shuffleId: Int, numMaps: Int) {
+    // vortual: 注册 shuffle 信息，方便下游 stage 获取 shuffle 信息，例如 shuffle 数据位置
     if (shuffleStatuses.put(shuffleId, new ShuffleStatus(numMaps)).isDefined) {
       throw new IllegalArgumentException("Shuffle ID " + shuffleId + " registered twice")
     }
   }
 
   def registerMapOutput(shuffleId: Int, mapId: Int, status: MapStatus) {
+    // vortual: task 执行完毕后更新 shuffle 信息
     shuffleStatuses(shuffleId).addMapOutput(mapId, status)
   }
 

@@ -540,6 +540,7 @@ private[spark] class Executor(
         }
 
         setTaskFinishedAndClearInterruptStatus()
+        // vortual: task 完成后更新状态的时候会触发一些动作：例如如果是 ShuffleMapTask，会汇报 shuffle 的信息（例如shuffle 数据的位置）
         execBackend.statusUpdate(taskId, TaskState.FINISHED, serializedResult)
 
       } catch {

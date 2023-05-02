@@ -28,6 +28,7 @@ import org.apache.spark.util.collection.ExternalSorter
  * Fetches and reads the partitions in range [startPartition, endPartition) from a shuffle by
  * requesting them from other nodes' block stores.
  */
+// vortual: 读取 shuffle 数据入口类
 private[spark] class BlockStoreShuffleReader[K, C](
     handle: BaseShuffleHandle[K, _, C],
     startPartition: Int,
